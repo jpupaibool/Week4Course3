@@ -86,7 +86,9 @@ Change x_train2 and x_test2 to data frames.
 
 Transpose x_train2 and x_test2.
 (This will change x_train2 and x_test2 to matrix.)
-> x_train2 <- t(x_train2)x_test2 <- t(x_test2)
+> x_train2 <- t(x_train2)
+
+> x_test2 <- t(x_test2)
 
 
 Change x_train2 and x_test2 back from matrix to data frames.
@@ -112,7 +114,9 @@ Assign features to column names of the data frames x_train2 and x_test2.
 
 
 Combine rows of x_train2 and x_test2 to measure_total.
-> measure_total <- rbind(x_train2, x_test2)dim(measure_total)
+> measure_total <- rbind(x_train2, x_test2)
+
+> dim(measure_total)
 
 
 Combine columns of data frames subject_total, activity_total, and measure_total together.
