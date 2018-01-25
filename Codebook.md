@@ -72,8 +72,11 @@ measure_meanstd.average	-	data frame that contains tiday data of averages of eac
 
 # The final file "Week4Final.txt".
 It contains the average of each measurement for each activity and each subject from the Human Activity Recognition Using Smartphones Data Set.
+
 It contains 68 columns and 180 rows.
+
 Column names are
+
 1 subject		- subject identifier - 1 to 30
 2 activity.name	- activity - WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, SITTING, STANDING, LAYING
 66 columns of measurements of mean and std values as listed below:
