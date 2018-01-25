@@ -144,7 +144,9 @@ The columns also include "meanFreq".
 We should exclude variables with "meanFreq" and keep only "mean" and "std".
 > measure_meanstd <- measure_meanstd[!grepl("meanFreq", names(measure_meanstd))]
 
-> dim(measure_meanstd)names(measure_meanstd)
+> dim(measure_meanstd)
+
+> names(measure_meanstd)
 
 
 Now we have subject, activity.code, activity.name, and 66 more variables.
