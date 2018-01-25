@@ -1,6 +1,6 @@
-#This codebook contains all variables used in run_analysis.R for the assignement of week 4 of course 3.
+# This codebook contains all variables used in run_analysis.R for the assignement of week 4 of course 3.
 
-#The variable names are in an order they appear in the script.
+# The variable names are in an order they appear in the script.
 
 
 subject_train	-	Data frame of subject_train.txt
