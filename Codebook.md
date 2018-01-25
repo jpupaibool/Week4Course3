@@ -77,8 +77,10 @@ It contains 68 columns and 180 rows.
 
 Column names are
 
-1 subject		- subject identifier - 1 to 30
-2 activity.name	- activity - WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, SITTING, STANDING, LAYING
+1 subject  - subject identifier - 1 to 30
+
+2 activity.name	- activity (6 levels) - WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS, SITTING, STANDING, LAYING
+
 66 columns of measurements of mean and std values as listed below:
 3 time.BodyAcc.mean.X                  
 4 time.BodyAcc.mean.Y                 
