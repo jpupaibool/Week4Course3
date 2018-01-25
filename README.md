@@ -1,6 +1,15 @@
-# Week4Course3
+# Week4 Course3 Getting and Cleaning Data
 Course Project of Course 3 Getting and Cleaning Data
 
+# The tidy data file "Week4Final.txt"
+A new dataset that was created by run_analysis.R.
+It contains merged data of the traning and test sets.
+The data were extracted only measurement variables with mean and std values and calculated averages of each variable for each activity of each subject.
+
+# Code.md
+This is a code file that explain all variables in run_analysis.R and all variables of the tidy dataset of file "Week4Final.txt".
+
+# This is the explanation how R codes in run_analysis.R works.
 Move all files needed for this assignment to the same working directory.
 
 Read text files subject_train.txt and subject_test.txt.
