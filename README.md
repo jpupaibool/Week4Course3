@@ -124,7 +124,9 @@ This will create one data sete as required by the assignment.
 This is requirement #1 of the assignement.
 > measure_total <- cbind(subject_total, activity_total, measure_total)
 
-> dim(measure_total)names(measure_total)
+> dim(measure_total)
+
+> names(measure_total)
 
 
 Select only columns that have mean and std to a new data frame "measure_meanstd"
