@@ -5,14 +5,17 @@ Move all files needed for this assignment to the same working directory.
 
 Read text files subject_train.txt and subject_test.txt.
 > subject_train <- readLines("subject_train.txt")
+
 > subject_test <- readLines("subject_test.txt")
 
 Change subject_train and subject_test to data frames.
 > subject_train <- as.data.frame(subject_train)
+
 > subject_test <- as.data.frame(subject_test)
 
 Assign column name "subject" to subject_train and subject_test.
 > colnames(subject_train) <- "subject"
+
 > colnames(subject_test) <- "subject"
 
 Combine rows of subject_train and subject_test to subject_total.
