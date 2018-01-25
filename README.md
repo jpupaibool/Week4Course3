@@ -40,10 +40,9 @@ Use "activity.code" as the column name.
 
 > y_test <- as.data.frame(y_test)
 
+> colnames(y_train) <- "activity.code"
 
-> colnames(y_train) <- "activity.code"colnames
-
-> (y_test) <- "activity.code"
+> colnames(y_test) <- "activity.code"
 
 > activity_total <- rbind(y_train, y_test)
 
