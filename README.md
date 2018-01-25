@@ -6,7 +6,7 @@ A new dataset that was created by run_analysis.R.
 It contains merged data of the traning and test sets.
 The data were extracted only measurement variables with mean and std values and calculated averages of each variable for each activity of each subject.
 
-# Code.md
+# CODEBOOK.md
 This is a code file that explain all variables in run_analysis.R and all variables of the tidy dataset of file "Week4Final.txt".
 
 # This is the explanation how R codes in run_analysis.R works.
