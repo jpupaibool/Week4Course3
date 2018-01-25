@@ -40,6 +40,7 @@ Use "activity.code" as the column name.
 
 > y_test <- as.data.frame(y_test)
 
+
 > colnames(y_train) <- "activity.code"colnames
 
 > (y_test) <- "activity.code"
@@ -52,11 +53,11 @@ Use "activity.code" as the column name.
 Create another column "activity.name" to the data frame activity_total.
 It will be more descriptive as required by the assignment.
 This is the requirement #3 of the assignment.
-> activity_total$activity.name <- ifelse(activity_total$activity.code == 1, "WALKING",                                 
-                                  ifelse(activity_total$activity.code == 2, "WALKING_UPSTAIRS",
-                                  ifelse(activity_total$activity.code == 3, "WALKING_DOWNSTAIRS",
-                                  ifelse(activity_total$activity.code == 4, "STANDING",
-                                  ifelse(activity_total$activity.code == 5, "SITTING", "LAYING")))))
+> activity_total$activity.name <- ifelse(activity_total$activity.code == 1, "WALKING", 
+ifelse(activity_total$activity.code == 2, "WALKING_UPSTAIRS",
+ifelse(activity_total$activity.code == 3, "WALKING_DOWNSTAIRS",
+ifelse(activity_total$activity.code == 4, "STANDING",
+ifelse(activity_total$activity.code == 5, "SITTING", "LAYING")))))
    
    
 Read test files x_train.txt and x_test.txt.
