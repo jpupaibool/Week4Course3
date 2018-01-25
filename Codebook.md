@@ -143,9 +143,9 @@ Column names are
 61 fastfourier.BodyAccMag.mean        
 62 fastfourier.BodyAccMag.std         
 63 fastfourier.BodyBodyAccJerkMag.mean  
-64 fastfourier.BodyBodyAccJerkMag.std
+64 fastfourier.BodyBodyAccJerkMag.std 
 65 fastfourier.BodyBodyGyroMag.mean     
 66 fastfourier.BodyBodyGyroMag.std    
-67 fastfourier.BodyBodyGyroJerkMag.mean
+67 fastfourier.BodyBodyGyroJerkMag.mean 
 68 fastfourier.BodyBodyGyroJerkMag.std 
 
