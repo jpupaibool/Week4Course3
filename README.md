@@ -1,4 +1,4 @@
-# Week4 Course3 Getting and Cleaning Data
+# Week4 of Course3 Getting and Cleaning Data
 Course Project of Course 3 Getting and Cleaning Data
 
 # The tidy data file "Week4Final.txt"
